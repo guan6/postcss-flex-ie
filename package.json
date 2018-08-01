@@ -1,5 +1,5 @@
 {
-  "name": "postcss-flex-ie",
+  "name": "postcss-flex-to-table-cell",
   "version": "0.0.0",
   "description": "PostCSS plugin fix ie < 10 flex",
   "keywords": [
@@ -10,11 +10,11 @@
   ],
   "author": "guan6 <405171253@qq.com>",
   "license": "MIT",
-  "repository": "guan6/postcss-flex-ie",
+  "repository": "guan6/postcss-flex-to-table-cell",
   "bugs": {
-    "url": "https://github.com/guan6/postcss-flex-ie/issues"
+    "url": "https://github.com/guan6/postcss-flex-to-table-cell/issues"
   },
-  "homepage": "https://github.com/guan6/postcss-flex-ie",
+  "homepage": "https://github.com/guan6/postcss-flex-to-table-cell",
   "dependencies": {
     "postcss": "^6.0.16"
   },

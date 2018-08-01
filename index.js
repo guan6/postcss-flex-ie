@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-flex-ie', function (opts) {
+module.exports = postcss.plugin('postcss-flex-to-table-cell', function (opts) {
   opts = opts || {};
 
   var ishasTouch = function (i, prop, value) {
