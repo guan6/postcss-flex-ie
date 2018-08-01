@@ -1,0 +1,38 @@
+{
+  "name": "postcss-flex-ie",
+  "version": "0.0.0",
+  "description": "PostCSS plugin fix ie < 10 flex",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "flex"
+  ],
+  "author": "guan6 <405171253@qq.com>",
+  "license": "MIT",
+  "repository": "guan6/postcss-flex-ie",
+  "bugs": {
+    "url": "https://github.com/guan6/postcss-flex-ie/issues"
+  },
+  "homepage": "https://github.com/guan6/postcss-flex-ie",
+  "dependencies": {
+    "postcss": "^6.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^22.4.2"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
