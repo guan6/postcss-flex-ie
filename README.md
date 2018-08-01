@@ -7,14 +7,18 @@
 [ci]:      https://travis-ci.org/guan6/postcss-flex-ie
 
 ```css
+/* Input example */
 .foo {
-    /* Input example */
+    display: flex;
+    align-items: center;
 }
 ```
 
 ```css
-.foo {
-  /* Output example */
+/* Output example */
+.foo > * {
+  display: table-cell;
+  vertical-align: middle;
 }
 ```
 
